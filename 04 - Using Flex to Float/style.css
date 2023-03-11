@@ -1,0 +1,35 @@
+/* Removes the outside margins and ensures content fits on the screen (with overflow hidden) */
+html, body {
+    margin: 0 auto;
+}
+
+/* VW = Viewport width, VH = Viewport height */
+#topSection {
+    background-color: orange;
+    width: 100vw;
+    height: 10vh;
+}
+
+#mainContainer{
+    display:flex;
+}
+
+#leftSide {
+    background-color: blue;
+    height: 80vh;
+    width: 20vw;
+}
+
+#rightSide {
+    background-color: burlywood;
+    height: 80vh;
+    width: 80vw;
+}
+
+/* Clear will remove the float, meaning that it can be displayed at the bottom */
+
+#bottomPart {
+    background-color: purple;
+    height: 10vh;
+    width: 100vw;
+}
