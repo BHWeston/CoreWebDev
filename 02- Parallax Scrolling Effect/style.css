@@ -1,0 +1,37 @@
+/* COMMENT */
+/* selector { element: value; element2: value2;} */
+
+html,
+body {
+    margin: 0 auto;
+}
+
+#backgroundOne {
+    background-image: url("images/Cartridges.jpg");
+    /* width and height can have 3 values = px, %, vh/vw */
+    height: 100vh;
+    width: 100vw;
+    /* vh = viewport height, vw = viewport width */
+
+    /* Allows the background to cover the screen */
+    background-size: cover;
+
+    /* Stops the image from repeating if this is to small */
+    background-repeat: no-repeat;
+
+    /* This is what provides the parallax scrolling effect*/
+    background-attachment: fixed;
+}
+
+/* Add in the code for a second background image: */
+#backgroundTwo {
+    background-image: url("images/Scoreboard.jpg");
+
+    height: 100vh;
+    width: 100vw;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
