@@ -1,0 +1,17 @@
+/* COMMENT IN CSS IS THIS */
+
+p {
+    color: blue;
+}
+
+body {
+    background-color: cyan;
+}
+
+#firstPara {
+    color: orange;
+}
+
+#secondPara {
+    color: darkslateblue;
+}
