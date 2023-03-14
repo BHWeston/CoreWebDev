@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    height: 100vh;
+
+    background-image: url("images/Cartridges.jpg");
+    background-size: cover;
+
+    align-content: center;
+}
+
+nav {
+    background-color: rgb(188 186 183 / 0.6);
+    height: 10vh;
+    width: 99vw;
+}
+
+#leftText {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: rgb(188 186 183 / 0.6);
+}
+
+#rightImage {
+    grid-column-start: 6;
+    grid-column-end: 12;
+}
+
+#rightImage img {
+    height: 50vh;
+}
