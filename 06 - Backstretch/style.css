@@ -1,0 +1,13 @@
+/* To fix the margin: */
+html, body {
+    margin: 0 auto;
+}
+
+#backstretchExample {
+    /* background-image: url("images/bulb.jpg"); */
+    height: 100vh;
+    width: 100vw;
+
+    /* This fixes the image size: */
+    /* background-size: cover; */
+}

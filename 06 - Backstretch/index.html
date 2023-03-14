@@ -1,0 +1,32 @@
+<!-- Ctrl + / is new comment -->
+<!DOCTYPE html>
+<!-- To determine the document type, this is HTML 5 -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backstretch Example</title>
+    <!-- The title tag will change our tab name -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="backstretchExample"></section>
+</body>
+<!-- Imports the jQuery that we need to use (a new language!!) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!-- Backstretch CDN code: -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js"></script>
+
+<!-- My backstretch code: -->
+<script type="text/javascript">
+    $('#backstretchExample').backstretch([
+        "images/bulb.jpg",
+        "images/pika.jpg"
+        ], {duration: 3000, fade: 500});
+</script>
+
+</html>
