@@ -1,0 +1,96 @@
+body, html {
+    margin: 0 auto;
+    background-image: url("images/bear.jpg");
+    background-size: cover;
+}
+
+/*ORIGINAL MAIN NAV*/
+.mainNav {
+    height: 20vh;
+    width: 100%;
+    
+    text-align: center;
+    
+    background-color: rgba(255, 255, 255, 0.73);
+    background-position: center;
+    position: fixed;
+    
+    /*Transition*/
+    transition: 0.5s linear;
+}
+
+.mainNav ul li{    
+    font-family: 'Germania One', cursive;
+    font-size: 40px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+/*Have copied the code for the mainNav section and have renamed the classes for this*/
+.mainNavScrolling {
+    height: 5%;
+    width: 100%;
+    
+    text-align: center;
+    
+    background-color: rgba(75, 25, 24, 0.73);
+    background-position: center;
+    position: fixed;
+}
+
+.mainNavScrolling ul li{    
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.mainNavScrolling ul li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.animateSlide:before {
+    content: '';
+    width: 0px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 100%;
+    left:0;
+    transition: .5s;
+}
+
+ul li:hover .animateSlide:before {
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.73);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
