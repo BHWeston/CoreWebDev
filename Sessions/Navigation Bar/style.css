@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* Reset my margins */
+
+html, body {
+    margin: 0 auto;
+}
+
+/* This will change the size of my navigation bar */
+nav {
+    height: 20vh;
+    width: 100%;
+
+    background-color: rgb(98 103 197 / 0.72);
+}
+
+/* This removes the top margin on the page */
+nav ul {
+    margin: 0 auto;
+    /* Moves the text into the center */
+    text-align: center;
+
+    /* Moves the text on the page down, so is vertically centered */
+    padding-top: 20px;
+}
+
+/* Removing the styling on the text on the navigation bar */
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    /* This should remove the bullet points */
+    list-style:none;
+
+    /* This will allow for the text to be displayed on the same line: */
+    display: inline-block;
+
+    /* Makes the font size larger */
+    font-size: 40px;
+    /* Gives the buttons some space around the outside */
+    padding: 10px;
+
+    /* color: white; */
+}
+
+nav ul li a {
+    /* Gets rid of the blue underline on the page */
+    text-decoration: none;
+
+    /* Updates the colour as the colour with nav ul li will no longer be used, we can remove this */
+    color: white;
+}
